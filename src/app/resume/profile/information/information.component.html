@@ -1,0 +1,68 @@
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('assets/images/mg-background.jpg');"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image">
+            <a href="#">
+              <img src="assets/images/foto.jpeg" alt="Image" />
+            </a>
+          </div>
+          <div class="h2 title">Raul Villca</div>
+          <p class="category text-white">Full-Stack Developer, Architect</p>
+          <a class="btn btn-primary" style="width: 200px;" href="https://drive.google.com/open?id=1tY03BYRNhk-Sm-2FrSoaIUBSapZPl9rR" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download My Resume</a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="button-container">
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/raul.villca.9" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/raul-villca-a5740190/" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/raulvillca" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://twitter.com/raal_v" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">About</div>
+            <div [innerHTML]="information?.about"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="row mt-3">
+              <div class="col-sm-4">
+                <strong class="text-uppercase">Email:</strong>
+              </div>
+              <div class="col-sm-8">{{information?.email}}</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4">
+                <strong class="text-uppercase">Phone:</strong>
+              </div>
+              <div class="col-sm-8">{{information?.phone}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
