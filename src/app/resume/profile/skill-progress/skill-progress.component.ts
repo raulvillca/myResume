@@ -11,7 +11,7 @@ export class SkillProgressComponent implements OnInit {
   @Input() progress: string;
   @Input() lvl: number;
   @Input() max: number;
-  private items = [];
+  items = [];
 
   constructor() {}
 
