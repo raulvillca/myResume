@@ -21,3 +21,15 @@
     display: inline-flex;
     width: 100%;
 }
+
+.skill-anim {
+    width: 16.5%;
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-delay: 1s;
+    -webkit-transition-timing-function: linear;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}

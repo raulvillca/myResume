@@ -10,7 +10,7 @@ import { Component, OnInit, Input } from '@angular/core';
       <span class="progress-badge skill-label-r">{{progress}}</span>
   </div>
   <div class="skill-progress-container">
-    <div class="skill-progress" *ngFor="let item of items" [ngClass]="{'c-skill-b':item, 'c-skill-bl':!item}"></div>
+    <div class="skill-progress aos-init aos-animate" data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000" *ngFor="let item of items" [ngClass]="{'c-skill-b':item, 'c-skill-bl':!item}"></div>
   </div>
 </div>`
 })
