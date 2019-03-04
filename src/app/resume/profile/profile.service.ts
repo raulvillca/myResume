@@ -15,7 +15,7 @@ export class ProfileService {
   }
 
   getExperiences(): Observable<any> {
-    return this.http.get(`${this.apiUrl}/json/get/4kWL6NVII`);
+    return this.http.get(`${this.apiUrl}/json/get/N1XjcDrIU`);
   }
 
   getSkills(): Observable<any> {
