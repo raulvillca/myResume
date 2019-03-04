@@ -1,0 +1,23 @@
+.c-skill-b {
+    background-color: #00334D;
+}
+
+.c-skill-bl {
+    background-color: #799DD0;
+}
+
+.skill-progress {
+    height: 10px;
+    font-size: 18px;
+    width: 16.5%;
+    margin: 2px;
+}
+
+.skill-label-r {
+    float: right;
+}
+
+.skill-progress-container {
+    display: inline-flex;
+    width: 100%;
+}

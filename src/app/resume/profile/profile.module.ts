@@ -13,6 +13,7 @@ import { ProfileComponent } from './profile.component';
 import { NgxSpinnerModule } from 'node_modules/ngx-spinner';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { SkillProgressComponent } from './skill-progress/skill-progress.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     HeaderComponent, 
     ExperienceComponent, 
     SkillComponent, 
+    SkillProgressComponent,
     EducationComponent, 
     ContactComponent, 
     InformationComponent, 
