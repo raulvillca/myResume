@@ -2,8 +2,17 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-skill-progress',
-  templateUrl: './skill-progress.component.html',
-  styleUrls: ['./skill-progress.component.css']
+  styleUrls: ['./skill-progress.component.css'],
+  template: `
+<div class="">
+  <div>
+      <span class="progress-badge">{{title}}</span>
+      <span class="progress-badge skill-label-r">{{progress}}</span>
+  </div>
+  <div class="skill-progress-container">
+    <div class="skill-progress" *ngFor="let item of items" [ngClass]="{'c-skill-b':item, 'c-skill-bl':!item}"></div>
+  </div>
+</div>`
 })
 export class SkillProgressComponent implements OnInit {
 
